@@ -1,0 +1,6 @@
+firstname = input("Enter your first name")
+lastname = input("Enter your last name")
+totalname = firstname + lastname
+print(totalname)
+print(len(totalname))
+
