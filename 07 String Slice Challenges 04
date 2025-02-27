@@ -1,0 +1,7 @@
+first = input("Enter first line of a nursery rhyme")
+length = len(first)
+print("This has" , length, "letters in it")
+startnum = int(input("Enter a starting number"))
+endnum = int(input("Enter an ending number"))
+both = first[startnum:endnum]
+print(both)
