@@ -1,0 +1,4 @@
+import random
+
+Random = random.randint(1,1000)
+print(Random)
