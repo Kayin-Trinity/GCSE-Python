@@ -1,10 +1,11 @@
 import random
 
-num = random.int(1,5)
+num = random.randint(1,5)
 pick = int(input("Enter a number between 1 and 5 "))
-while num == pick:
+
+if num == pick:
   print("well done")
-if num > pick:
+elif num > pick:
   print("too high, try again")
 else:
   print("too low, try again")
