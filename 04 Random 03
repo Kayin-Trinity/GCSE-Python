@@ -1,0 +1,17 @@
+import random
+
+coin_flip = ["heads", "tails"]
+coin = random.choice(coin_flip)
+
+choice = input("Pick heads or tails ")
+print(coin)
+
+if choice == coin:
+    print("You win")
+else:
+    print("bad luck")
+
+if choice != coin and choice == "heads":
+    print("It was tails")
+else:
+    print("It was heads")
