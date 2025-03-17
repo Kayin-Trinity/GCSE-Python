@@ -1,0 +1,16 @@
+import random
+
+num = random.int(1,5)
+pick = int(input("Enter a number between 1 and 5 "))
+while num == pick:
+  print("well done")
+if num > pick:
+  print("too high, try again")
+else:
+  print("too low, try again")
+
+guess2 = int(input("Try again "))
+if guess2 == num:
+  print("Correct")
+else:
+  print("You lose")
