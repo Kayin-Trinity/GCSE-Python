@@ -1,0 +1,10 @@
+import random
+num = random.randint(1,10)
+correct = False
+
+while correct == False:
+  num2 = int(input("Enter a num"))
+  if num2 == num:
+    correct = True
+  else:
+    print("Keep going")
