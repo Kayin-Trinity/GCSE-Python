@@ -1,0 +1,6 @@
+invite = input("Input the names of three people you want to invite")
+people = [invite]
+invite2 = input("Do you want to invite anymore people?")
+while invite2 == "Yes":
+    name = input("Who?")
+    people.append(name)   
