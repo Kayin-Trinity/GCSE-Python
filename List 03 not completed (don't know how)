@@ -1,6 +1,10 @@
-invite = input("Input the names of three people you want to invite")
+invite = input("Input the names of three people you want to invite ")
 people = [invite]
-invite2 = input("Do you want to invite anymore people?")
+invite2 = input("Do you want to invite anymore people? ")
 while invite2 == "Yes":
-    name = input("Who?")
-    people.append(name)   
+    names = input("Add your names")
+    people.append(names)
+    invite2 = input("Do you want to invite anymore people? ")
+
+number = len(people)
+print(number)
