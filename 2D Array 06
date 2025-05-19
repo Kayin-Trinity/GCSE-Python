@@ -1,0 +1,6 @@
+input1 = int(input("Enter the value of the range you want "))
+input2 = int(input("Enter the value of the index you want "))
+
+EmptyArray = [[input2 for column in range(5)]for row in range(input1)]
+print(EmptyArray)
+
