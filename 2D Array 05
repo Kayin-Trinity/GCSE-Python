@@ -1,0 +1,5 @@
+input1 = int(input("Enter a value to choose the range "))
+input2 = int(input("Same thing "))
+
+EmptyArray = [[0 for column in range(input1)] for row in range (input2)]
+print(EmptyArray)
