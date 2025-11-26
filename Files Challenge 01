@@ -1,0 +1,10 @@
+#Files1 Challenge01
+
+file = open("numbers.txt", "w")
+
+for i in range(5):
+    numbers = input("wirte a number")
+    file.write(numbers)
+    file.write(",")
+file.close()
+print("\nGo and open read.txt" )
