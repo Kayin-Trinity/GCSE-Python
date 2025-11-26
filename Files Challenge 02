@@ -1,0 +1,9 @@
+#Files Challenge 02
+
+file = open("name.txt", "w")
+for i in range(5):
+    name = input("write a name")
+    file.write(name)
+    file.write("\n")
+file.close()
+print("\nGo and open name.txt" )
