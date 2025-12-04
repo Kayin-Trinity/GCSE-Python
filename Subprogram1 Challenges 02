@@ -1,0 +1,16 @@
+#Subprogram1 Challenges 02
+
+def COD_menu():
+    print("You have 3 options")
+    print("Domination")
+    print("Team Deathmatch")
+    print("Headquarters")
+    option = int(input("Enter a number, one to three, for your selected gamemode"))
+    if option == 1:
+        print("Domination")
+    elif option == 2:
+        print("Team Deathmatch")
+    else:
+        print("Headquarters")
+
+COD_menu()
