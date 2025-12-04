@@ -1,0 +1,12 @@
+#Subprogram1 Challenges 01
+
+def menu():
+    mode1 = "Career mode"
+    mode2 = "Tournament Mode"
+    mode3 = "Online sessions"
+    print(mode1)
+    print(mode2)
+    print(mode3)
+
+menu()
+    
