@@ -1,0 +1,26 @@
+#Subprogram1 Challenge04
+
+def Minecraft_menu():
+    print("You have to choose 1 of the following 5 options: ")
+    print("Option 1, Creative")
+    print("Option 2, Survival")
+    print("Option 3, Hardcore")
+    print("Option 4, Adventure")
+    print("Option 5, Exit")
+    option = int(input("Enter a number 1-5 for you selected option "))
+    if option == 1:
+        print("Creative selected")
+    elif option == 2:
+        print("Survial selected")
+    elif option == 3:
+        print("Hardcore selected")
+    elif option == 4:
+        print("Adventure selected")
+    elif option == 5:
+        print("Exiting...")
+    else:
+        print("Invalid choice")
+        Minecraft_menu()
+
+Minecraft_menu()
+
